@@ -1,0 +1,17 @@
+--------Frontend tasks-----------
+Build side navigation DONE
+Build chat interface
+Build chat functionality in the frontend(Ability to type a message and it reflects)
+Build user profile page
+Make all pages responsive
+Implement client side routing 
+Integrate auth
+Create APIs to interact with the backend server
+
+
+-------Backend Tasks----------
+Set up express server
+Build backend routes
+Create Firebase app
+Write authentication
+Implement firebase cloud store

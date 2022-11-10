@@ -1,0 +1,45 @@
+@import '../../../styles/resets/config';
+
+.container{
+    border: solid 3px $online-status;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  10px;
+    .chat_header {
+        border: solid 2px purple;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        color: $secondary-color;
+    }
+    .chat_bubble{
+        border: solid 2px red;
+        width: 40%;
+        height: 50%;
+        max-width: 400px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        align-items: center;
+        padding: .9rem;
+        gap: 10px;
+        word-wrap: break-word;
+        word-break: break-all;
+        img{
+            width: 20%;
+            height: 60%;
+            border-radius: 20px;
+        }
+        span{
+            background-color: $online-status;
+            border-radius: 20px;
+            padding: .3em;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import '../resets/config';
+
+
+@mixin desktop {
+    @media (min-width: 1200px){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: 750px) and (max-width: 1200px){
+        @content;
+    }
+}
+@mixin mobile {
+    @media (min-width: 250px) and (max-width: 749px){
+        @content;
+    }
+}
